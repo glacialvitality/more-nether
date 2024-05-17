@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "more-nether",
+	"version": "${version}",
+	"name": "More Nether",
+	"description": "Increases the build height to 512, with world generation from -64 to 320.",
+	"authors": [
+		"GlacialVitality"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/more-nether/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "gov.vitality.more_nether.MoreNether",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"more-nether.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.20.6",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.24"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

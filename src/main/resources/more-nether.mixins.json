@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "gov.vitality.more_nether.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "NetherFortressStructureMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
