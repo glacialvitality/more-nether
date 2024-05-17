@@ -25,10 +25,16 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": ">=1.20.6",
+		"minecraft": ">=1.20.6 <=1.21.0-alpha.24.20.a",
 		"java": ">=21",
 		"fabric-api": "*",
 		"fabric-language-kotlin": ">=1.9.24"
+	},
+	"breaks": {
+		"netherdepthsupgrade": "*",
+		"nether_depths": "*",
+		"Amplified_Nether": "*",
+		"Incendium": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
