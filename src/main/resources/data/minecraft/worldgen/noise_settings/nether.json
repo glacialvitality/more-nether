@@ -56,7 +56,7 @@
                         "from_value": 1.0,
                         "from_y": 300,
                         "to_value": 0.0,
-                        "to_y": 320
+                        "to_y": 313
                       },
                       "argument2": {
                         "type": "minecraft:add",
