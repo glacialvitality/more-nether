@@ -25,10 +25,10 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": ">=1.20.6 <=1.21.0-alpha.24.20.a",
+		"minecraft": ">=1.21",
 		"java": ">=21",
 		"fabric-api": "*",
-		"fabric-language-kotlin": ">=1.9.24"
+		"fabric-language-kotlin": ">=1.11.0"
 	},
 	"breaks": {
 		"netherdepthsupgrade": "*",
