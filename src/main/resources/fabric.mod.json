@@ -1,42 +1,35 @@
 {
 	"schemaVersion": 1,
-	"id": "more-nether",
+	"id": "etended-nether-height",
 	"version": "${version}",
-	"name": "More Nether",
-	"description": "Increases the build height to 512, with world generation from -64 to 320.",
+	"name": "Etended Nether Height",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"GlacialVitality"
+		"Me!"
 	],
 	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/more-nether/icon.png",
+	"icon": "assets/etended-nether-height/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "gov.vitality.more_nether.MoreNether",
+				"value": "gov.vitality.EtendedNetherHeight",
 				"adapter": "kotlin"
 			}
 		]
 	},
 	"mixins": [
-		"more-nether.mixins.json"
+		"etended-nether-height.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": ">=1.21",
-		"java": ">=21",
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
 		"fabric-api": "*",
-		"fabric-language-kotlin": ">=1.11.0"
-	},
-	"breaks": {
-		"netherdepthsupgrade": "*",
-		"nether_depths": "*",
-		"Amplified_Nether": "*",
-		"Incendium": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabric-language-kotlin": "*"
 	}
 }
