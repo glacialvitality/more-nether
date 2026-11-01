@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block",
+      "count": 1
+    },
+    "title": "So High Up, Yet Beneath the Depths",
+    "description": "Get Above y=500 in the Nether",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "minecraft:nether/breaking_bad",
+  "criteria": {
+    "above_500": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "min": 500,
+                  "max": 512
+                }
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "above_500"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone",
+      "count": 1
+    },
+    "title": "Deep Below...",
+    "description": "Get Below y=0 in the Nether"
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "below_zero": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "min": -64,
+                  "max": 0
+                }
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "below_zero"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

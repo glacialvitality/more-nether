@@ -1,23 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "etended-nether-height",
+	"id": "extended-nether-height",
 	"version": "${version}",
-	"name": "Etended Nether Height",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Extended Nether Height",
+	"description": "26.3 port of the More Nether mod",
 	"authors": [
-		"Me!"
+		"GlacialVitality"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/glacialvitality/more-nether"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/etended-nether-height/icon.png",
+	"icon": "assets/extended-nether-height/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "gov.vitality.EtendedNetherHeight",
+				"value": "gov.vitality.extended_nether_height.Entrypoint",
 				"adapter": "kotlin"
 			}
 		]
