@@ -22,7 +22,7 @@
 		]
 	},
 	"mixins": [
-		"etended-nether-height.mixins.json"
+		"extended-nether-height.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.20.1",
