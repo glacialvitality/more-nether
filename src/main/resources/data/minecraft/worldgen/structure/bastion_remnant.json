@@ -5,14 +5,7 @@
   "size": 6,
   "spawn_overrides": {},
   "start_height": {
-    "type": "minecraft:very_biased_to_bottom",
-    "min_inclusive": {
-      "absolute": -31
-    },
-    "max_inclusive": {
-      "absolute": 33
-    },
-    "inner": 4
+    "absolute": -31
   },
   "start_pool": "minecraft:bastion/starts",
   "step": "surface_structures",
